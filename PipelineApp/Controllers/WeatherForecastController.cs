@@ -29,4 +29,10 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    [HttpGet("SayHi")]
+    public string SayHi()
+    {
+        return "Hello Word!";
+    }
 }
